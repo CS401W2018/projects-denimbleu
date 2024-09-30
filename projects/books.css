@@ -1,0 +1,34 @@
+body{
+    color:pink;
+    font-size: small;
+    font-family: cursive;
+    background-color: rgb(181, 158, 162);
+}
+.first{
+    color:rgb(224, 56, 84);
+}
+#second{
+    color:lightpink;
+}
+.third{
+    color:palevioletred;
+}
+.fourth{
+    color:plum;
+}
+.italic{
+    color:rgb(224, 56, 84);
+    font-style: oblique;
+}
+.main {
+    color: lightcoral
+}
+.before{
+    color: lightpink;
+    font-style: oblique;
+    
+}
+.title{
+    color:rgb(224, 56, 84);
+
+}
