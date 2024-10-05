@@ -2,7 +2,25 @@ body{
     font-size: 36;
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
+    background-color: pink;
+    background-image: url(pink\ backdrop.webp);
+
 }
-#waves{
-    width: 500px;
+.list{
+    list-style: square
+}
+
+
+header{
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url(flower.webp);
+    
+}
+
+nav a{
+    color: #73bfdb;
+}
+.current{
+    color: gray;
 }
