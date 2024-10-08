@@ -1,0 +1,21 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image:url(background.jpeg);
+}
+nav a{
+    color: bisque;
+}
+.current{
+    color:gray;
+}
+.list{
+    list-style:url(favicon-2.ico);
+}
+
+.position{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+    height: auto;
+}
