@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:palevioletred
+}
+header{
+    width: 300px;
+    background-color: blanchedalmond
+}
+nav{
+    width: 300px;
+    background-color: blanchedalmond;
+}
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline;
+}
+nav a{
+    display: block;
+    padding: 10px 30px;
+    border-bottom: thin solid palevioletred;
+    float: left;
+}
+nav a:hover{
+    color: blanchedalmond;
+    background-color: white;
+}
+
+#flowerpic{
+    width: 250px;
+    border: thin solid ;
+    float: left;
+}
+
+#flowerpic  img{
+    width: 250px;
+}
+.end{
+    clear: both;
+}
