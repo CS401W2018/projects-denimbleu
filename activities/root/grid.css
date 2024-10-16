@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: cadetblue;
+    padding:  5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "lside main rside"
+    "footer footer footer";
+    
+
+        
+}
+
+.item{
+    background-color: lightblue;
+    border: thin solid black;
+    
+}
+
+.itema{
+   grid-area: lside; 
+}
+.itemb{
+    grid-area: rside;
+}
