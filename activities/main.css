@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header{
+    background-color: #e8e886;
+}
+nav{
+    background-color: #e2e2bc;
+    display: flex;
+    justify-content: space-around;
+}
+header h1{
+    margin: 0;
+}
+nav a{
+    display: block;
+    padding: 5px 10px;
+    color: yellow;
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    /*gap: 10px;*/
+    justify-content: space-between;
+}
+.flower{
+    width: 200px;
+    border: thin solid palegoldenrod;
+    box-shadow: 3px 3px 5px palegoldenrod;
+    margin: 5px;
+}
+.flower img{
+    width: 100%;
+}

@@ -29,13 +29,10 @@ body{
     
 }
 .row {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
     
-
-    /*flex-direction: column ;
-    flex-wrap: wrap;
-    gap: 20px;*/
+     display: grid; 
+    grid-template-columns: 1fr 1fr ; 
+    
 
 }
 .border{
