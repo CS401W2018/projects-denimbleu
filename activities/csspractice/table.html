@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <Header>
+        <h1> Table</h1>
+    </Header>
+    <table class = "schedule">
+        <caption>My table</caption>
+        <thead>
+            <th>Department</th>
+            <th>Number</th>
+            <th>Time</th>
+            <th>Credits</th>
+        </thead>
+        <tbody>
+            <tr><td>CS</td><td>140</td><td>11am</td></tr>
+            <tr><td>CS</td><td>140</td><td>11am</td></tr>
+            <tr><td>CS</td><td>140</td><td>11am</td></tr>
+            <tr><td>CS</td><td>140</td><td>11am</td></tr>
+
+        </tbody>
+        <tfoot>
+            <tr><th id = "totalcreds">total credits</th><td colespan = "3" headers = "totalcreds">12</td></tr>
+
+        </tfoot>
+    </table>
+    <nav>
+        <a href="#">LINK</a>
+        <a href="#">LINK</a>
+        <a href="#">LINK</a>
+        <a href="#">LINK</a>
+    </nav>
+    <main>
+        <p>Questions:
+
+            1.Why don't we use the border property? The borders could overlap with each other and might6 not do as well on different types of screens
+            2.What is the easiest way to color every other row a different color? The best way is to .schedule tbody tr:nth-child(odd) and then underneath set a background color after you put this it makes every other row a different color
+           3. When should we use a table? We should use a table when we have datat that is needing to be portrayed quickly and easily.</p>
+
+    </main>
+    <footer>
+        &copy; Denim Bleu
+    </footer>
+    
+</body>
+</html>
