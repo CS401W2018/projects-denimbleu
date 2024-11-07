@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <header>
+    <h1>Form</h1>
+  </header>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+       
+    </nav>
+    <main>
+        <p>Action is like getting link, it's where the form data will be sent </p>
+        <p>Method is like a post, it specifies the HTTP method that the browser should use when submitting the form data.</p>
+        <p>Post is changing or adding information, usally and default use a Post. Get is reading information, you would use Get when you want to get data from a speicific place. They are equally secure</p>
+        <form action="processing.html" method = "post"><br>
+            First Name <input type=" text" name = "first"><br>
+            Last Name <input type="text" name = "last"><br>
+            Password <input type="password" name = "pass"><br>
+            Female <input type="checkbox" name = "female">
+            Male <input type="checkbox" name = "male"><br>
+            Favorite Color <input type="color" name = "color"><br>
+            DOB <input type="date" name = "DOB"><br>
+            From <select name="state" id="State">
+                <option value="Blank">Blank</option>
+                <option value="Hawaii">Hawaii</option>
+                <option value="Texas">Texas</option>
+                <option value="Californa">Californa</option>
+            </select><br>
+            Do you use<br> <input type="radio" name ="from" value="Drugs">Medication <br>
+            <input type="radio" name ="from" value="Smoke">Smoke <br>
+            <input type="radio" name ="from" value="Drink">Drink <br>
+            Application form <input type="file" name = "file"><br>
+            Website <input type="url" name = "url"><br>
+            <input type="submit">
+        </form>
+
+    </main>
+    <footer>
+        &copy; DenimB
+    </footer>
+</body>
+</html>
