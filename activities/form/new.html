@@ -18,29 +18,58 @@
        
     </nav>
     <main>
-        <p>Action is like getting link, it's where the form data will be sent </p>
-        <p>Method is like a post, it specifies the HTTP method that the browser should use when submitting the form data.</p>
-        <p>Post is changing or adding information, usally and default use a Post. Get is reading information, you would use Get when you want to get data from a speicific place. They are equally secure</p>
+        <p>The different ways to style form is by using div tags, label tags, fieldset tags, and legand tags. You can also use break tags. In the CSS you can use flex to help design your form.</p>
+        <p>Proffesor likes to use flex because its the most reliable and understandable accross the css and the form.</p>
         <form action="processing.html" method = "post"><br>
-            First Name <input type =" text" name = "first"><br>
-            Last Name <input type ="text" name = "last"><br>
-            Password <input type ="password" name = "pass"><br>
-            Female <input type ="checkbox" name = "female">
-            Male <input type ="checkbox" name = "male"><br>
-            Favorite Color <input type = "color" name = "color"><br>
-            DOB <input type ="date" name = "DOB"><br>
-            From <select name = "state" id="State">
-                <option value = "Blank">Blank</option>
-                <option value = "Hawaii">Hawaii</option>
-                <option value = "Texas">Texas</option>
-                <option value = "Californa">Californa</option>
-            </select><br>
-            Do you use<br> <input type = "radio" name ="from" value ="Drugs">Medication <br>
-            <input type ="=radio" name = "from" value ="Smoke">Smoke <br>
-            <input type ="radio" name = "from" value ="Drink">Drink <br>
-            Application form <input type = "file" name = "file"><br>
-            Website <input type ="url" name = "url"><br>
-            <input type ="submit">
+            <Fieldset>
+                <legend>Sign Up</legend>
+                <div class = "row">
+                    <label for = "fname">First Name</label> <input id = "fname" type =" text" name = "first">
+                </div>
+                <div class = "row">
+                    <label for = "lname">Last Name</label> <input id = "lname" type ="text" name = "last">
+                </div>
+                <div class = "row">
+                    <label for = "pass">Password </label><input id ="pass" type ="password" name = "pass">
+                </div>
+            </Fieldset>
+            <div class = "check-row">
+                Female <input type ="checkbox" name = "female">
+                Male <input type ="checkbox" name = "male">
+            </div>
+            <div class = "row">
+                Favorite Color <input type = "color" name = "color">
+            </div>
+            <div class = "row">
+                DOB <input type ="date" name = "DOB">
+            </div>
+            <div class = "row">
+                From <select name = "state" id="State">
+                    <option value = "Blank">Blank</option>
+                    <option value = "Hawaii">Hawaii</option>
+                    <option value = "Texas">Texas</option>
+                    <option value = "Californa">Californa</option>
+                </select>
+            </div>
+            <div class = "row">
+                Like to eat</div> <div class = "row"><label><input type = "radio" name ="from" value ="chicken">Chick-fil-a</label>
+            </div>
+            <div class = "row">
+                <label ><input type = "radio" name = "from" value = "chicken">Wingstop</label>
+            </div>
+            <div class = "row">
+                <label ><input type ="radio" name = "from" value ="chicken">Kanes</label>
+            </div>
+            <div class = "row">
+                Application form <input type = "file" name = "file">
+            </div>
+            <div class = "row">
+                Website <input type ="url" name = "url">
+            </div>
+            <div class = "row">
+                <div class = "spacer"></div>
+                <input type ="submit">
+            </div>
         </form>
 
     </main>
