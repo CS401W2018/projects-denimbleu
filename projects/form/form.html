@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Volunteer</h1>
+    
+    </header>
+    <main>
+        <form action="processing.html" method = "post"><br>
+            <Fieldset>
+                <legend>To Contact You</legend>
+                <div class = "row">
+                    <label for = "fname">First Name</label> <input id = "fname" type =" text" name = "first">
+                </div>
+                <div class = "row">
+                    <label for = "lname">Last Name</label> <input id = "lname" type ="text" name = "last">
+                </div>
+                <div class = "row">
+                   <label for="email">Email</label> <input id = "email" type="email">
+                </div>
+                <div class = "row">
+                    <label for="ph">Phone</label><input id ="ph" type="phone">
+                </div>
+                
+            </Fieldset>
+            <div class = "check-row">
+                <p class = "box">In three words describe yourself</p>
+                <input type="text">
+            </div>
+            <div class = "check-row">
+                <p class = "box">Check which days you could participate</p>
+                Sunday <input type ="checkbox" name = "sunday">
+                Monday <input type ="checkbox" name = "monday">
+                Tuesday <input type ="checkbox" name = "tuesday">
+                Wednesday <input type ="checkbox" name = "wednesday">
+                Thursday <input type ="checkbox" name = "thursday">
+                Friday <input type ="checkbox" name = "friday">
+                Saturday <input type ="checkbox" name = "saturday">
+            </div>
+            <div class = "row">
+                <p>Perferd Location</p> <select name = "state" id="State">
+                    <option value = "Blank">Blank</option>
+                    <option value = "Albuqurque">Albuqurque</option>
+                    <option value = "NewYork">New York</option>
+                    <option value = "Los Angeles">Los Angeles</option>
+                    <option value = "Dallas">Dallas</option>
+                    <option value = "Seattle">Seattle</option>
+                </select>
+            
+            <div class = "row">
+                <p class = "box">What would you like to particitpate in</p></div> <div class = "row"><label><input type = "radio" name ="from" value ="service">Soup Kitchen</label>
+            </div>
+            <div class = "row">
+                <label ><input type = "radio" name = "from" value = "service">Assisted Living</label>
+            </div>
+            <div class = "row">
+                <label ><input type ="radio" name = "from" value ="service">Beanies for Babys</label>
+            </div>
+            <div class = "row">
+                <p>Why do you want to be apart of our program?</p>
+                <input type="textarea">
+            </div>
+            <div class = "row">
+                <label for = "pass">Password </label><input id ="pass" type ="password" name = "pass">
+            </div>
+            <div class = "row">
+                <div class = "spacer"></div>
+                <input class = "try" type ="submit">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p> &copf; Denim B</p>
+    </footer>
+    
+</body>
+</html>
