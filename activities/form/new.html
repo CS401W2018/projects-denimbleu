@@ -18,9 +18,11 @@
        
     </nav>
     <main>
-        <p>The different ways to style form is by using div tags, label tags, fieldset tags, and legand tags. You can also use break tags. In the CSS you can use flex to help design your form.</p>
-        <p>Proffesor likes to use flex because its the most reliable and understandable accross the css and the form.</p>
-        <form action="processing.html" method = "post"><br>
+        <p>Java Script is a programing language, </p>
+        <p>One way you can run it is in DOM or with node.js</p>
+        <p>The most popular front end js was jQuery.js </p>
+        <p>The most popular front end js is React</p>
+        <form action="processing.html" method = "post" id = "myform"><br>
             <Fieldset>
                 <legend>Sign Up</legend>
                 <div class = "row">
@@ -76,5 +78,22 @@
     <footer>
         &copy; DenimB
     </footer>
+    <script>
+        document.getElementById("myform").addEventListener("submit",function(event){
+            event.preventDefault();
+            const firstName = document.getElementById("fName").value;
+            const lastName = document.getElementById("lName").value;
+            const formData = {
+                fName: fName
+               
+            }
+            if (!fName || !lName){
+                alert("First name and last name required!");
+                return;
+            }
+            console.log(fName);
+            alert("You submitted the form!");
+        })
+    </script>
 </body>
 </html>
