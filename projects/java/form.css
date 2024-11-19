@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+fieldset{
+    box-shadow: 3px 3px 3px black;
+    background-color: rgb(255, 222, 227);
+}
+legend{
+    border: thin solid black;
+    background-color: pink;
+    padding: 10px;
+    color: aliceblue;
+}
+.row{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.spacer{
+    width: 150px;
+    text-align: right;
+}
+.row label{
+    width: 150px;
+    text-align: right;
+}
+.check-row{
+    display: flex;
+    gap: 10px;
+}
+.row input:focus{
+    background-color: rgb(226, 157, 169);
+}
+@media only screen and (max-width: 600px){
+    .row{
+        flex-direction: column;
+    }
+    .row input:focus{
+        background-color: rgb(226, 157, 169);
+    }
+    
+}
