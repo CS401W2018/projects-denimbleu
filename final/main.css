@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a{
+    color: antiquewhite;
+}
+.current{
+   color: rgb(255, 174, 186);
+} 
+.schedule{
+    margin: 5px auto;
+    border: thin solid black;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+
+.schedule td, .schedule th{
+    border: thin solid black;
+    padding: 10px;
+}
+.schedule thead{
+    background-color:rgb(255, 183, 214);
+}
+
+.schedule tbody tr :nth-child(odd){
+    background-color: rgb(252, 201, 223);
+}
+.schedule tbody tr :nth-child(even){
+    background-color: rgb(254, 240, 240);
+}
+
+caption{
+    font-style: italic;
+}
+.faces{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    gap: 5px;
+    justify-content: space-between;
+    
+
+}
+.border{
+    border: thin solid black;
+    background-color: rgb(255, 235, 238);
+    width: fit-content;
+}
