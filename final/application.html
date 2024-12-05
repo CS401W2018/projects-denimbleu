@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <title> Form </title>
+    <link rel = "stylesheet" href = "main.html">
+</head>
+<body>
+    <header>
+        <h1>Work as a Designer</h1>
+    
+    </header>
+    <nav>
+        <a href="main.html" class = "current">Home</a>
+        <a href="donna.html">Donatella Versace</a>
+        <a href="coco.html">Coco Chanel</a>
+        <a href="karl.html">Karl Lagerfeld</a>
+        <a href="alex.html">Alexander McQueen</a>
+        <a href="tom.html">Tom Ford</a>
+        <a href="application.html" class = "current">Application</a>
+    </nav>
+    
+    <main>
+            <h2>Application Form</h2>
+            <p>Please fill out the form to apply for Admission.</p>
+        
+            <form id="application-form" onsubmit="return processForm(event)">
+              <label for="full-name">Full Name:</label>
+              <input type="text" id="full-name" name="full-name"> <br>
+        
+              <label for="email">Email Address:</label>
+              <input type="email" id="email" name="email"><br>
+
+              <label for="phone">Phone Number:</label>
+              <input type="number" id="phone" name="phone"><br>
+
+              <p>Perferd Design Company</p> <select name = "Design Company">
+                <option value = "Blank">Blank</option>
+                <option value = "Chanell">Chanell</option>
+                <option value = "Gucci">Gucci</option>
+                <option value = "Saint Laurent">Saint Laurent</option>
+                <option value = "Tom Ford">Tom Ford</option>
+                <option value = "Alexander McQeen">Alexander McQueen</option>
+                <option value = "Ralph Lauren">Ralph Lauren</option>
+              </select><br>
+        
+              <label for="portfolio">Portfolio Link:</label>
+              <input type="url" id="portfolio" name="portfolio"><br>
+        
+              <label for="motivation">Why do you want to join our Design School?</label>
+              <textarea id="motivation" name="motivation" rows="4" ></textarea>
+        
+              <button type="submit">Submit Application</button>
+            </form>
+        
+            <div id="form-message" style="display:none;">
+              <p>Your application has been successfully submitted!</p>
+            </div>
+    </main>
+    <footer>
+        <p> &copf; Denim B</p>
+    </footer>
+    <script>
+        function processForm(event) {
+  
+            event.preventDefault();
+
+            
+            const formData = new FormData(document.getElementById('application-form'));
+
+            
+            document.getElementById('form-message').style.display = 'block';
+
+            
+            document.getElementById('application-form').reset();
+
+            
+            return false;
+        }
+    </script>
+    
+</body>
+</html>
